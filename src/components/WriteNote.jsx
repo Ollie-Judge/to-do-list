@@ -27,7 +27,7 @@ function WriteANote(props) {
   }
 
   return (
-    <div>
+    <div className="toDo">
       <form>
         <input
           name="title"

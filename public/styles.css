@@ -7,7 +7,7 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background: #eee;
+  background: white;
   padding: 0 16px;
 }
 
@@ -20,15 +20,14 @@ header {
 }
 
 header h1 {
-  color: #fff;
+  color: white;
   font-family: "McLaren", cursive;
   font-weight: 200;
 }
 
 .note {
-  background: #fff;
+  background: white;
   border-radius: 7px;
-  box-shadow: 0 2px 5px #ccc;
   padding: 10px;
   width: 240px;
   margin: 16px;
@@ -43,4 +42,30 @@ header h1 {
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+
+form {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: white;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  resize: none;
+}
+form button {
+  position: bottom;
+  width: 75px;
+  height: 50px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
