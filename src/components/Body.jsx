@@ -4,7 +4,7 @@ function Body() {
   return (
     <div className="body">
       <h1>To Do</h1>
-      <p>This is the note content</p>
+      <p>To do content</p>
     </div>
   );
 }
